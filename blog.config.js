@@ -4,10 +4,10 @@ const BLOG = {
   email: 'i@zuolan.me',
   link: 'https://zuolan.me',
   newsletter: '左蓝的周刊',
-  description: '一个静悄悄的博客.',
+  description: '一个静悄悄.',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
-  font: 'sans-serif', // ['sans-serif', 'serif']
+  font: 'Georgia', // ['sans-serif', 'serif']
   lightBackground: '#F6F8FA', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#212936', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
@@ -17,7 +17,7 @@ const BLOG = {
   showNewsletter: true,
   previewImagesEnabled: true,
   showTitlebarText: false, // Craft Docs page show title bar text on desktop
-  autoCollapsedNavBar: false, // The automatically collapsed navigation bar
+  autoCollapsedNavBar: true, // The automatically collapsed navigation bar
   ogImageGenerateURL: 'https://og-zl.vercel.app', // The link to generate OG image, don't end with a slash
   defaultCover: '/secret_preview.png',
   socialLink: {
